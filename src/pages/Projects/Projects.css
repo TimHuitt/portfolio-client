@@ -1,0 +1,12 @@
+.Projects {
+  width: 80%;
+  max-width: 900px;
+}
+
+.projects-header {
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  margin-top: 75px;
+}
