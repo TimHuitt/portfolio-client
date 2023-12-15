@@ -8,4 +8,37 @@
 .resume-container {
   width: 90vw;
   padding: 60px 0;
+  z-index: -1;
+}
+.download {
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 50px;
+  max-height: 50px;
+  margin: 20px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 5px 5px 10px #ddd;
+}
+.download button {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #444 !important;
+}
+
+.download:hover {
+  background: #fff;
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 15px #aaa;
+}
+.download:active {
+  background: #eee;
+  transform: translate(0px, 0px);
+  box-shadow: 2px 2px 4px #aaa;
 }
