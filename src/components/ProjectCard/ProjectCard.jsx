@@ -4,7 +4,7 @@ import "./ProjectCard.css"
 export const ProjectCard = ({p}) => {
   return (
     <div className="project-card-wrapper">
-      <Link to={"/project/" + p._id}>
+      <Link to={"/project/" + p.title}>
         <div className='project-card text-2xl'>
           <div className='card-details-wrapper'>
             <p className="font-bold">{p.title}</p>
