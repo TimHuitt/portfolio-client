@@ -9,10 +9,9 @@ export const ProjectCard = ({p}) => {
           <div className='card-details-wrapper'>
             <p className="font-bold">{p.title}</p>
             <div 
-            className='text-base pt-2'
+            className='text-base pt-2 pr-2'
             dangerouslySetInnerHTML={{ __html: p.description }} />
-            {/* <p>{p.gitLink}</p>
-            <p>{p.deployLink}</p> */}
+
           </div>
           <div className="project-card-images">
             <img className="rounded" src={p.images[0]} />
