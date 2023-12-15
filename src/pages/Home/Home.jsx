@@ -14,7 +14,7 @@ const Home = () => {
             <p>
             I'm an experienced Software Engineer with a strong passion for solving intricate problems through innovative programming, driven to enhance efficiency and create positive impacts at all levels. 
             <br /><br />
-            My history includes many successful leadership roles, the professional development and deployment of Python and VBA applications, and the completion of an intensive software engineering course.
+            My history includes the professional development and deployment of Python and VBA applications, the completion of an intensive software engineering course, and many successful leadership roles.
             </p>
           </h1>
       </div>

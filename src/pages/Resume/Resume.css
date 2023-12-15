@@ -3,11 +3,10 @@
   max-width: 1000px;
   display: flex;
   justify-content: center;
-  margin-bottom: 100px;
 }
 .resume-container {
   width: 90vw;
-  padding: 60px 0;
+  margin-top: 100px;
   z-index: -1;
 }
 .download {
@@ -20,7 +19,6 @@
   width: 150px;
   height: 50px;
   max-height: 50px;
-  margin: 20px;
   border-radius: 10px;
   background: #fff;
   border: 1px solid #ddd;

@@ -18,6 +18,9 @@ const Resume = () => {
       <div className="resume-container">
         <img src={resumeImage} />
       </div>
+      <div className='spacer'>
+        
+      </div>
     </div>
   )
 }
