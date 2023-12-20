@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react'
 import { getProjects } from '../../utilities/projects-service'
 import { ProjectCard } from '../../components/ProjectCard/ProjectCard'
+// import AutoComponent from 'auto-component'
+import AutoComponent from '../../components/auto-component'
+
 import "./Projects.css"
 
 const Projects = () => {
@@ -28,9 +31,12 @@ const Projects = () => {
   } else {
     return (
       <div className='Projects'>
-        <div className='projects-header'>
-          <h1 className='p-4 font-bold text-3xl'>Projects</h1>
+        
+        <div style={{fontSize: '24px', fontWeight: 'bold', color: 'white', textDecoration: 'underline', textAlign: 'center'}}>
+          The Coolest of the Cool
         </div>
+        <AutoComponent />
+
         <div className="pb-24">
           {projects.map((p) => (
             <ProjectCard  key={p._id + "-card"} p={p}/>
